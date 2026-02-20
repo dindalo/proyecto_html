@@ -1,0 +1,198 @@
+.vuelta_index
+{
+    text-align: center; 
+    margin-bottom: 25px;
+}
+.boton_volver 
+{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: white;
+    color: #1f2937;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 1px solid #e5e7eb;
+    transition: all 0.3s ease;
+}
+.boton_volver:hover 
+{
+    background-color: #4a51ff;
+    color: white;
+}
+
+
+.contenedor_principal 
+{
+    width: 90%;
+    max-width: 1000px; 
+    margin: 40px auto;
+    padding-top: 20px;
+    display: block;
+    overflow: hidden;
+}
+
+.pokemons
+{
+    display: flex;
+    justify-content: space-between; 
+    align-items: flex-start;
+    gap: 50px; 
+    padding: 40px;
+    border-radius: 30px;
+    background-color: #f3f0ff; 
+    width: 100%; 
+    box-sizing: border-box;
+}
+
+.pokemons.fantasma
+{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    grid-template-areas: 
+        "haunter evoluciones"
+        "tcg tcg"; 
+    gap: 30px;
+    padding: 40px;
+    background-color: #dcdce6; 
+    border-radius: 30px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+    border: 1px solid #cfcfda;
+}
+.pokemons.hielo
+{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    grid-template-areas: 
+        "haunter evoluciones"
+        "tcg tcg"; 
+    gap: 30px;
+    padding: 40px;
+    background-color: #e0f2fe; 
+    border-radius: 30px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+    border: 1px solid #cfcfda;    
+}
+
+.pokemon_haunter 
+{
+    grid-area: haunter; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.pokemon_glaceon
+{
+    grid-area: haunter; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+.imgpokemon
+{
+    width: 100%;
+    max-width: 250px;
+    filter: drop-shadow(0 10px 15px rgba(0,0,0,0.1));
+}
+
+.evoluciones 
+{
+    grid-area: evoluciones;
+    background-color: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(8px);
+    padding: 25px;
+    border-radius: 20px;
+}
+
+.evo_pok 
+{
+    text-align: center;
+}
+
+.evo_pok img {
+    width: 100px; 
+    height: auto;
+    margin-bottom: 10px;
+}
+.evoluciones h3 
+{
+    margin-top: 0;
+    color: #374151;
+    border-left: 5px solid #4a51ff; 
+    padding-left: 15px;
+}
+
+.contenedor_evol 
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+/* =============================================
+   ESTILOS DE LAS CARTAS TCG
+   ============================================== */
+
+.tcg_inferior 
+{
+    grid-area: tcg; 
+    margin-top: 20px;
+}
+
+.grid_4_cartas 
+{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 20px;
+}
+
+.carta_tcg 
+{
+    text-align: center;
+    perspective: 1000px;
+}
+
+.carta_tcg img 
+{
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275), box-shadow 0.4s ease;
+    cursor: pointer;
+}
+
+
+.carta_tcg img:hover 
+{
+    transform: scale(1.1) rotateY(10deg) rotateX(5deg);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.4);
+    z-index: 10;
+}
+
+.carta_tcg p 
+{
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: #4b5563;
+    margin-top: 10px;
+}
+/* =============================================
+   BOTÓN VOLVER
+   ============================================== */
+.boton_volver {
+    text-decoration: none;
+    color: #1f2937;
+    font-weight: bold;
+    font-size: 0.9rem;
+    padding: 8px 15px;
+    background: white;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.boton_volver:hover {
+    background: #4a51ff;
+    color: white;
+}
