@@ -119,6 +119,21 @@
     border: 1px solid #fecaca;    
 }
 
+.pokemons.dragon
+{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    grid-template-areas: 
+        "haunter evoluciones"
+        "tcg tcg"; 
+    gap: 30px;
+    padding: 40px;
+    background: linear-gradient(135deg, #6a5acd 0%, #483d8d 100%); 
+    border-radius: 30px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+    border: 1px solid #c7d2fe;    
+}
+
 .pokemon_haunter 
 {
     grid-area: haunter; 
@@ -160,6 +175,15 @@
     flex-direction: column;
     align-items: center;
     text-align: center;    
+}
+
+.pokemon_dragonite
+{
+    grid-area: haunter; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;     
 }
 
 .imgpokemon
