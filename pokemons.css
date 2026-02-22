@@ -53,7 +53,7 @@
         "haunter evoluciones"
         "tcg tcg"; 
     gap: 30px;
-    padding: 40px;
+    padding: 40px;  
     background-color: #dcdce6; 
     border-radius: 30px;
     box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
@@ -74,6 +74,51 @@
     border: 1px solid #cfcfda;    
 }
 
+.pokemons.electrico
+{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    grid-template-areas: 
+        "haunter evoluciones"
+        "tcg tcg"; 
+    gap: 30px;
+    padding: 40px;
+    background-color: #fef9c3; 
+    border-radius: 30px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+    border: 1px solid #fde047; 
+}
+
+.pokemons.psiquico
+{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    grid-template-areas: 
+        "haunter evoluciones"
+        "tcg tcg"; 
+    gap: 30px;
+    padding: 40px;
+    background-color: #f8d7e3; 
+    border-radius: 30px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+    border: 1px solid #fbcfe8;            
+}
+
+.pokemons.fuego
+{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    grid-template-areas: 
+        "haunter evoluciones"
+        "tcg tcg"; 
+    gap: 30px;
+    padding: 40px;
+    background-color: #fce7e7; 
+    border-radius: 30px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+    border: 1px solid #fecaca;    
+}
+
 .pokemon_haunter 
 {
     grid-area: haunter; 
@@ -89,6 +134,32 @@
     display: flex;
     flex-direction: column;
     align-items: center;    
+}
+
+.pokemon_pikachu
+{
+    grid-area: haunter;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pokemon_mewtwo
+{
+    grid-area: haunter; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.pokemon_flareon
+{
+    grid-area: haunter; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;    
 }
 
 .imgpokemon
@@ -131,9 +202,8 @@
     justify-content: space-around;
     align-items: center;
 }
-/* =============================================
-   ESTILOS DE LAS CARTAS TCG
-   ============================================== */
+
+
 
 .tcg_inferior 
 {
@@ -178,6 +248,7 @@
     color: #4b5563;
     margin-top: 10px;
 }
+
 
 
 .boton_volver {
