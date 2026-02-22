@@ -30,7 +30,8 @@
     background-color: #fff;
 }
 
-.item_poke {
+.item_poke 
+{
     display: flex;
     align-items: center;
     padding: 10px 15px;
@@ -69,7 +70,7 @@
     margin-top: 25px;
 }
 
-.btn_enviar 
+.boton_enviar 
 {
     background-color: #b347c3;
     color: white;
@@ -80,7 +81,7 @@
     cursor: pointer;
 }
 
-.btn_limpiar 
+.boton_limpiar 
 {
     background-color: #f0f0f0;
     color: #333;
