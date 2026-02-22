@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<miweb>
+   <!-- Página de Inicio (Home) -->
+   <inicio>
+      <loc>https://www.misitio.com</loc>
+      <changefreq>daily</changefreq>
+   </inicio>
+
+   <!-- Sección de Productos -->
+   <productos>
+      <loc>https://www.misitio.comproductos</loc>
+      <lastmod>2025-02-10</lastmod>
+      <changefreq>weekly</changefreq>
+   </productos>
+
+   <!-- Subcategoría de Productos -->
+   <clientes>
+      <loc>https://www.misitio.comproductos/servicios</loc>
+      <lastmod>2025-02-01</lastmod>
+
+   </clientes>
+ 
+  <!-- Página de Contacto -->
+   <contacto>
+      <loc>https://www.misitio.comcontacto</loc>
+      <lastmod>2024-12-20</lastmod>
+      <changefreq>yearly</changefreq>
+      <priority>0.5</priority>
+   </contacto>
+</miweb>
