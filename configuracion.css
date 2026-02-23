@@ -66,6 +66,7 @@
 
 .submenu li a
 {
+    color: #333333 !important;
     padding: 10px 20px;
     display: block;
     font-size: 0.9rem;
@@ -75,7 +76,6 @@
 .submenu li a:hover
 {
     background-color: #f3f4f6;
-    color: #4a51ff;
 }
 
 body
@@ -353,8 +353,18 @@ body
     background-color: #a040a0; 
     color: #ffffff;        
 }
+.tipo_pokemon.hielo 
+{
+    background-color: #96d9d6;
+    color: #1f2937;
+}
+.tipo_pokemon.planta 
+{
+    background-color: #78c850;
+    color: #ffffff;
+}
 
-/*ahora el footer, me falta poner descripcion al final y el logo tmabien*/
+/*me falta poner descripcion al final y el logo tmabien*/
 
 .final_pagina
 {
