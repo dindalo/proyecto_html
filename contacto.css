@@ -18,6 +18,21 @@
     text-transform: uppercase;
     margin-bottom: 25px;
 }
+select.comunidades
+{
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    appearance: none;
+    size: 5;
+}
+
+textarea.texto
+{
+    resize: vertical;
+    min-height: 100px;
+    font-family: Arial, sans-serif; 
+}
 
 .lista_pokemon
 {
@@ -62,6 +77,32 @@
     border-radius: 5px;
     margin-bottom: 15px;
     box-sizing: border-box;
+}
+
+.bloque
+{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;    
+    text-align: left;
+}
+
+.bloque label {
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #43435c;
+}
+
+select.comunidades 
+{
+    width: 100%;            
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #ffffff;
+    color: #333;            
+    height: auto;           
 }
 
 .bloque_botones 
