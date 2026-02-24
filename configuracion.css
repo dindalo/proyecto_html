@@ -273,7 +273,6 @@ body
 {
     box-shadow: 0 10px 20px rgba(0,0,0,0.1); 
     transform: translateY(-5px);
-    /*border-color: #4a51ff; tengo que buscar colores para poder ponerle a cada tipo de pokemon*/
 }
 
 .carta_pokemon img
@@ -400,4 +399,67 @@ body
 }
 
 
+/*movil*/
 
+@media screen and (max-width: 600px) {
+
+    
+    .barra_anclada 
+    {
+        padding: 0 5%;
+        height: auto;
+        flex-direction: column;
+        padding-bottom: 15px;
+    }
+
+    .menu 
+    {
+        gap: 15px;
+        margin-top: 10px;
+    }
+
+    .ventana_carrusel 
+    {
+        display: none;
+    }
+
+    .seccion_populares 
+    {
+        width: 95%;
+        margin: 30px auto;
+    }
+
+    .titulo_populares 
+    {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .grid_populares 
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        width: 100%;
+        gap: 20px;
+    }
+
+    .carta_pokemon 
+    {
+        width: 85%; 
+        max-width: 280px; 
+        padding: 20px;
+    }
+
+    .carta_pokemon img 
+    {
+        width: 120px; 
+    }
+
+    
+    .footer_links 
+    {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
