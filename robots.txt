@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://dindalo.github.io/proyecto_html/sitemap.xml

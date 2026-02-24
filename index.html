@@ -1,7 +1,16 @@
 <!doctype html>
-<html>
+<html lang="es">
     <head>
         <link rel="stylesheet" href="configuracion.css">
+        <meta charset="UTF-8">
+        
+        <title>Pokedex Online | Guia de Pokemons y Cartas TCG</title>
+
+        <meta name="description" content="Explora nuestra Pokedex interactiva. Encuentra información detallada sobre Pokémon tipo fuego, agua, planta y cartas TCG para un verdadero trader.">
+    
+        <meta name="keywords" content="Pokedex, Pokemon, Pokemons, tipos pokemon, TCG, cartas tcg">
+    
+
     </head>
     <body>
         
@@ -11,18 +20,19 @@
         <img src="imagenes/lugia.webp" class="img_logo" alt="POKEDEX">
         <h1>POKEDEX</h1>
     </div>
+
     <nav>
         <ul class="menu">
             <li><a href="index.html">Inicio</a></li>
             <li class="desplegable">
                 <a href="#">Tipos</a>
                 <ul class="submenu">
-                    <li><a href="fuego.html">Fuego</a></li>
-                    <li><a href="agua.html">Agua</a></li>
-                    <li><a href="planta.html">Planta</a></li>
-                </ul>
-            </li>
-            <li><a href="contacto.html">Contacto</a></li>
+                    <li><a href="fuego.html" title="Lista de pokemons tipo fuego">Fuego</a></li>
+                        <li><a href="agua.html" title="lista de pokemons tipo fuego">Agua</a></li>
+                        <li><a href="planta.html" title="lista de pokemons tipo planta">Planta</a></li>
+                    </ul>
+                </li>
+                <li><a href="contacto.html" title="registro de entrenadores pokemon">Registro entrenador</a></li>
         </ul>
     </nav>
 </header>
@@ -35,10 +45,10 @@
             <div class="info">
                 <span class="etiqueta">DESTACADOS DEL DÍA</span>
                 <h2>Haunter</h2>
-                <p>Un Pokémon de tipo Sombra/Psíquico conocido por su naturaleza traviesa.</p>
+                <p class="descripcion">Un Pokémon de tipo Sombra/Psíquico conocido por su naturaleza traviesa.</p>
                 <span class="tipo_pokemon fantasma">Fantasma</span>
                 <span class="tipo_pokemon veneno">Veneno</span>
-                <a href="haunter_html.html" class="boton_ver">Ver Detalles</a>
+                <a href="haunter_html.html" class="boton_ver" title="Haunter y sus cartas TCG">Ver Detalles</a>
             </div>
             <div class="destacado_imagen">
                 <img src="imagenes/Haunter.png" alt="Haunter">
@@ -49,9 +59,9 @@
             <div class="info">
                 <span class="etiqueta">DESTACADOS DEL DÍA</span>
                 <h2>Pikachu</h2>
-                <p>Uno de los pokemons favorito de los fans que destaca por su movimiento caracteristico Rayo que puede paralizar a los oponentes.</p>
+                <p class="descripcion">Uno de los pokemons favorito de los fans que destaca por su movimiento caracteristico Rayo que puede paralizar a los oponentes.</p>
                 <span class="tipo_pokemon electrico">Electrico</span>
-                <a href="pikachu_html.html" class="boton_ver">Ver Detalles</a>
+                <a href="pikachu_html.html" class="boton_ver" title="Pikachu y sus cartas TCG">Ver Detalles</a>
             </div>
             <div class="destacado_imagen">
                 <img src="imagenes/pikachu.webp" alt="Pikachu">
@@ -62,9 +72,9 @@
             <div class="info">
                 <span class="etiqueta">DESTACADOS DEL DÍA</span>
                 <h2>Glaceon</h2>
-                <p>Al controlar su temperatura corporal, puede congelar el ambiente y crear ráfagas de polvo de diamante. Es la evolución más elegante de Eevee, capaz de convertir sus pelos en afilados pinchazos de hielo para defenderse..</p>
+                <p class="descripcion">Al controlar su temperatura corporal, puede congelar el ambiente y crear ráfagas de polvo de diamante. Es la evolución más elegante de Eevee, capaz de convertir sus pelos en afilados pinchazos de hielo para defenderse..</p>
                 <span class="tipo_pokemon agua">Agua</span>
-                <a href="glaceon_html.html" class="boton_ver">Ver Detalles</a>
+                <a href="glaceon_html.html" class="boton_ver" title="Glaceon y sus cartas TCG">Ver Detalles</a>
             </div>
             <div class="destacado_imagen">
                 <img src="imagenes/glaceon.webp" alt="Glaceon">
@@ -75,9 +85,9 @@
             <div class="info">
                 <span class="etiqueta">DESTACADOS DEL DÍA</span>
                 <h2>Mewtwo</h2>
-                <p>Creado mediante manipulación genética, es considerado uno de los Pokémon más poderosos y feroces del mundo. Su capacidad de combate ha sido elevada al nivel máximo, utilizando sus habilidades telequinéticas para dominar cualquier batalla.</p>
+                <p class="descripcion">Creado mediante manipulación genética, es considerado uno de los Pokémon más poderosos y feroces del mundo. Su capacidad de combate ha sido elevada al nivel máximo, utilizando sus habilidades telequinéticas para dominar cualquier batalla.</p>
                 <span class="tipo_pokemon psiquico">Psiquico</span>
-                <a href="mewtwo_html.html" class="boton_ver">Ver Detalles</a>
+                <a href="mewtwo_html.html" class="boton_ver" title="Mewtwo y sus cartas TCG">Ver Detalles</a>
             </div>
             <div class="destacado_imagen">
                 <img src="imagenes/mewtwo.webp" alt="Mewtwo">
@@ -88,9 +98,9 @@
             <div class="info">
                 <span class="etiqueta">DESTACADOS DEL DÍA</span>
                 <h2>Flareon</h2>
-                <p>Almacena aire en su esponjosa melena para calentarlo y alcanzar temperaturas de hasta 900 grados antes de atacar. Es la viva imagen de la calidez y el poder del fuego concentrado, capaz de exhalar llamas abrasadoras.</p>
+                <p class="descripcion">Almacena aire en su esponjosa melena para calentarlo y alcanzar temperaturas de hasta 900 grados antes de atacar. Es la viva imagen de la calidez y el poder del fuego concentrado, capaz de exhalar llamas abrasadoras.</p>
                 <span class="tipo_pokemon fuego">Fuego</span>
-                <a href="flareon_html.html" class="boton_ver">Ver Detalles</a>
+                <a href="flareon_html.html" class="boton_ver" title="Flareon y sus cartas TCG">Ver Detalles</a>
             </div>
             <div class="destacado_imagen">
                 <img src="imagenes/flareon.webp" alt="Flareon">
@@ -101,10 +111,10 @@
             <div class="info">
                 <span class="etiqueta">DESTACADOS DEL DÍA</span>
                 <h2>Dragonite</h2>
-                <p>Almacena aire en su esponjosa melena para calentarlo y alcanzar temperaturas de hasta 900 grados antes de atacar. Es la viva imagen de la calidez y el poder del fuego concentrado, capaz de exhalar llamas abrasadoras.</p>
+                <p class="descripcion">Almacena aire en su esponjosa melena para calentarlo y alcanzar temperaturas de hasta 900 grados antes de atacar. Es la viva imagen de la calidez y el poder del fuego concentrado, capaz de exhalar llamas abrasadoras.</p>
                 <span class="tipo_pokemon dragon">Dragon</span>
                 <span class="tipo_pokemon volador">Volador</span>
-                <a href="dagronite_html.html" class="boton_ver">Ver Detalles</a>
+                <a href="dagronite_html.html" class="boton_ver" title="Dragonite y sus cartas TCG">Ver Detalles</a>
             </div>
             <div class="destacado_imagen">
                 <img src="imagenes/dragonite.webp" alt="Dragonite">
@@ -115,9 +125,9 @@
             <div class="info">
                 <span class="etiqueta">DESTACADOS DEL DÍA</span>
                 <h2>Ninetales</h2>
-                <p>Almacena aire en su esponjosa melena para calentarlo y alcanzar temperaturas de hasta 900 grados antes de atacar. Es la viva imagen de la calidez y el poder del fuego concentrado, capaz de exhalar llamas abrasadoras.</p>
+                <p class="descripcion">Almacena aire en su esponjosa melena para calentarlo y alcanzar temperaturas de hasta 900 grados antes de atacar. Es la viva imagen de la calidez y el poder del fuego concentrado, capaz de exhalar llamas abrasadoras.</p>
                 <span class="tipo_pokemon fuego">Fuego</span>
-                <a href="ninetales_html.html" class="boton_ver">Ver Detalles</a>
+                <a href="ninetales_html.html" class="boton_ver" title="Ninetales y sus cartas TCG">Ver Detalles</a>
             </div>
             <div class="destacado_imagen">
                 <img src="imagenes/ninetales.webp" alt="Ninetales">
@@ -128,9 +138,9 @@
             <div class="info">
                 <span class="etiqueta">DESTACADOS DEL DÍA</span>
                 <h2>Psiquico</h2>
-                <p>Almacena aire en su esponjosa melena para calentarlo y alcanzar temperaturas de hasta 900 grados antes de atacar. Es la viva imagen de la calidez y el poder del fuego concentrado, capaz de exhalar llamas abrasadoras.</p>
+                <p class="descripcion">Almacena aire en su esponjosa melena para calentarlo y alcanzar temperaturas de hasta 900 grados antes de atacar. Es la viva imagen de la calidez y el poder del fuego concentrado, capaz de exhalar llamas abrasadoras.</p>
                 <span class="tipo_pokemon psiquico">Psiquico</span>
-                <a href="abra_html.html" class="boton_ver">Ver Detalles</a>
+                <a href="abra_html.html" class="boton_ver" title="Abra y sus cartas TCG">Ver Detalles</a>
             </div>
             <div class="destacado_imagen">
                 <img src="imagenes/abra.webp" alt="Abra">
@@ -141,7 +151,7 @@
             <div class="info">
                 <span class="etiqueta">DESTACADOS DEL DÍA</span>
                 <h2>Zapdos</h2>
-                <p>Almacena aire en su esponjosa melena para calentarlo y alcanzar temperaturas de hasta 900 grados antes de atacar. Es la viva imagen de la calidez y el poder del fuego concentrado, capaz de exhalar llamas abrasadoras.</p>
+                <p class="descripcion">Almacena aire en su esponjosa melena para calentarlo y alcanzar temperaturas de hasta 900 grados antes de atacar. Es la viva imagen de la calidez y el poder del fuego concentrado, capaz de exhalar llamas abrasadoras.</p>
                 <span class="tipo_pokemon electrico">Electrico</span>
                 <span class="tipo_pokemon legendario">Legendario</span>
                 <span class="tipo_pokemon volador">Volador</span>
@@ -156,7 +166,7 @@
             <div class="info">
                 <span class="etiqueta">DESTACADOS DEL DÍA</span>
                 <h2>Haunter</h2>
-                <p>Un Pokémon de tipo Sombra/Psíquico conocido por su naturaleza traviesa.</p>
+                <p class="descripcion">Un Pokémon de tipo Sombra/Psíquico conocido por su naturaleza traviesa.</p>
                 <span class="tipo_pokemon fantasma">Fantasma</span>
                 <span class="tipo_pokemon veneno">Veneno</span>
                 <a href="fantasma.html" class="boton_ver">Ver Detalles</a>
