@@ -54,7 +54,7 @@
 
                 <div class="bloque">
                     <label for="comunidad">Provincia o Comunidad de España:</label>
-                    <select name="comunidad" class="comunidades" size="5">
+                    <select name="comunidad" class="comunidades">
                         <option value="" disabled selected>Selecciona tu ubicación</option>
                         <option value="andalucia">Andalucía</option>
                         <option value="aragon">Aragón</option>
@@ -86,12 +86,9 @@
                 <div class="bloque">
                     <label>Tipo de Pokémon Favorito:</label>
                     <div class="opciones_linea">
-                        <label><input type="radio" name="tipo_fav" value="psiquico"> Psíquico</label>
+                        <label><input type="radio" name="tipo_fav" value="psiquico"> Planta</label>
                         <label><input type="radio" name="tipo_fav" value="fuego"> Fuego</label>
-                        <label><input type="radio" name="tipo_fav" value="volador"> Volador</label>
-                        <label><input type="radio" name="tipo_fav" value="legendario"> Legendario</label>
                         <label><input type="radio" name="tipo_fav" value="agua"> Agua</label>
-                        <label><input type="radio" name="tipo_fav" value="electrico"> Eléctrico</label>
                     </div>
                 </div>
 
@@ -154,6 +151,11 @@
                         </label>
 
                     </div>
+                </div>
+
+                <div class="bloque">
+                    <label for="mensaje">¿Te gustaria que agregaramos mas pokemons para seleccionar?</label>
+                    <textarea id="mensaje" name="mensaje" class="texto" rows="4" placeholder="Dinos cuales pokemons deberiamos agregar"></textarea>
                 </div>
 
                 <div class="bloque_botones">
